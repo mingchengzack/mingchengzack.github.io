@@ -27,3 +27,18 @@ footer {
     font-size: 15px;
     bottom: 0pt;
 }
+
+#icon-bar {
+    background: #151D21;
+    position: absolute;
+    right: 0pt;
+    bottom: 0pt;
+}
+
+.row-container {
+    display: flex;
+}
+
+.big-icon {
+    color: rgb(105, 30, 30);
+}
