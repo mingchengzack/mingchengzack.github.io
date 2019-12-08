@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 
 body {
     background: #151D21;
@@ -6,23 +6,15 @@ body {
     margin: 0;
 }
 
-h1 {
-    font-family: 'Roboto Black';
-    font-size: 48px;
-}
-
 header {
     background: rgb(16, 22, 26);
-    padding: 25px;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 15px;
+    text-align: center;
     font-size: 20px;
 }
 
 footer {
-    font-family: 'Roboto Thin';
-    text-align: center;
+    font-family: "Roboto Thin";
     position: absolute;
     font-size: 15px;
     bottom: 0pt;
@@ -33,6 +25,15 @@ footer {
     position: absolute;
     right: 0pt;
     bottom: 0pt;
+}
+
+#name {
+    font-family: "Roboto Black";
+    font-size: 48px;
+}
+
+#nav {
+    padding: 20px;
 }
 
 .row-container {
