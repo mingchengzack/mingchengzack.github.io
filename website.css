@@ -1,14 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 
 body {
-    background: #151D21;
-    color: white;
+    background: white;
+    color: black;
     margin: 0;
 }
 
 header {
-    background: rgb(16, 22, 26);
-    padding: 15px;
+    background: rgb(33, 44, 51);
+    padding: 12px, 30px;
+    color: white;
     text-align: center;
     font-size: 20px;
 }
@@ -21,10 +22,7 @@ footer {
 }
 
 #icon-bar {
-    background: #151D21;
-    position: absolute;
-    right: 0pt;
-    bottom: 0pt;
+    background:white;
 }
 
 #name {
@@ -33,7 +31,58 @@ footer {
 }
 
 #nav {
+    overflow: hidden;
+    width: 50%;
+    display: inline-block;
+    background-color: rgb(33, 44, 51);
+}
+  
+#nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Roboto Black";
+    font-size: 25px;
+    width: 30%;
+}
+  
+#nav a:hover {
+    cursor: auto;
+}
+
+#nav a span:hover {
+    color: rgb(219, 48, 48);
+    cursor: pointer;
+}
+
+#about {
+    width: 60%;
+	margin-left: auto;
+	margin-right: auto;
     padding: 20px;
+}
+
+#projects {
+    width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+    padding: 20px;
+}
+
+#contact {
+    width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+    padding: 20px;
+}
+
+.sectionname {
+    font-family: "Roboto Black";
+    text-decoration: overline;
+    color: rgb(219, 48, 48);
+    font-size: 38px;
 }
 
 .row-container {
@@ -41,5 +90,5 @@ footer {
 }
 
 .big-icon {
-    color: rgb(105, 30, 30);
+    color: rgb(219, 48, 48);
 }
