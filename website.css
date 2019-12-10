@@ -115,19 +115,24 @@ footer {
 }
 
 #warcraft .projectimage {
-
+    border: 5px solid rgb(37, 115, 204);
+    background-image:url("images/warcraft.PNG");
 }
 
 #curve .projectimage {
-
+    width: 35%;
+    border: 5px solid rgb(37, 115, 204);
+    background-image:url("images/curve.PNG");
 }
 
 #phong .projectimage {
-
+    border: 5px solid rgb(37, 115, 204);
+    background-image:url("images/phong.PNG");
 }
 
 #dsystem .projectimage {
-
+    border: 5px solid rgb(37, 115, 204);
+    background-image:url("images/dsystem.PNG");
 }
 
 .row-container {
