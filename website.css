@@ -4,6 +4,7 @@ body {
     background: white;
     color: black;
     margin: 0;
+    font-size: 20px;
 }
 
 header {
@@ -11,14 +12,14 @@ header {
     padding: 12px, 30px;
     color: white;
     text-align: center;
-    font-size: 20px;
+    font-weight: bold;
 }
 
 footer {
     font-family: "Roboto Thin";
-    position: absolute;
+    position: relative;
     font-size: 15px;
-    bottom: 0pt;
+    bottom: 0%;
 }
 
 #icon-bar {
@@ -45,7 +46,7 @@ footer {
     text-decoration: none;
     font-family: "Roboto Black";
     font-size: 25px;
-    width: 30%;
+    width: 29%;
 }
   
 #nav a:hover {
@@ -62,6 +63,7 @@ footer {
 	margin-left: auto;
 	margin-right: auto;
     padding: 20px;
+    border-bottom: 4px solid rgb(219, 48, 48);
 }
 
 #projects {
@@ -69,6 +71,7 @@ footer {
 	margin-left: auto;
 	margin-right: auto;
     padding: 20px;
+    border-bottom: 4px solid rgb(219, 48, 48);
 }
 
 #contact {
@@ -80,9 +83,51 @@ footer {
 
 .sectionname {
     font-family: "Roboto Black";
-    text-decoration: overline;
     color: rgb(219, 48, 48);
+    text-align: center;
+    font-weight: bold;
     font-size: 38px;
+}
+
+.project {
+    width: 100%;
+    margin-bottom: 40px;
+	overflow: hidden; 
+}
+
+.projectimage {
+	width: 35%;
+    padding-top: 18%;
+    margin-top: 25px;
+    overflow: auto; 
+    background-size: cover;
+    float: left;
+}
+
+.projecttext {
+    width: 45%;
+    float: right;
+}
+
+#nutrition .projectimage {
+    border: 5px solid rgb(37, 115, 204);
+    background-image:url("images/nutrition.PNG");
+}
+
+#warcraft .projectimage {
+
+}
+
+#curve .projectimage {
+
+}
+
+#phong .projectimage {
+
+}
+
+#dsystem .projectimage {
+
 }
 
 .row-container {
