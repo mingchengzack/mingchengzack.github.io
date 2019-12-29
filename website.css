@@ -1,174 +1,179 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 
 body {
-    background: white;
-    color: black;
-    margin: 0;
-    font-size: 20px;
+  background: white;
+  color: black;
+  margin: 0;
+  font-size: 20px;
 }
 
 a {
-	text-decoration: none;
-	color: rgb(219, 48, 48);
+  text-decoration: none;
+  color: rgb(219, 48, 48);
 }
 
 header {
-    background: rgb(33, 44, 51);
-    padding: 12px, 30px;
-    color: white;
-    text-align: center;
-    font-weight: bold;
+  background: rgb(33, 44, 51);
+  padding: 12px, 30px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
 }
 
 footer {
-    font-family: "Roboto Thin";
-    position: relative;
-    font-size: 15px;
-    bottom: 0%;
+  font-family: "Roboto Thin";
+  position: relative;
+  font-size: 15px;
+  bottom: 0%;
 }
 
 #icon-bar {
-    background:white;
+  background: white;
 }
 
 #name {
-    font-family: "Roboto Black";
-    font-size: 48px;
+  font-family: "Roboto Black";
+  font-size: 48px;
 }
 
 #nav {
-    overflow: hidden;
-    width: 50%;
-    display: inline-block;
-    background-color: rgb(33, 44, 51);
+  overflow: hidden;
+  width: 50%;
+  display: inline-block;
+  background-color: rgb(33, 44, 51);
 }
-  
+
 #nav a {
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: "Roboto Black";
-    font-size: 25px;
-    width: 29%;
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-family: "Roboto Black";
+  font-size: 25px;
+  width: 29%;
 }
-  
+
 #nav a:hover {
-    cursor: auto;
+  cursor: auto;
 }
 
 #nav a span:hover {
-    color: rgb(219, 48, 48);
-    cursor: pointer;
+  color: rgb(219, 48, 48);
+  cursor: pointer;
 }
 
 #about {
-    width: 60%;
-	margin-left: auto;
-	margin-right: auto;
-    padding: 20px;
-    border-bottom: 4px solid rgb(219, 48, 48);
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border-bottom: 4px solid rgb(219, 48, 48);
 }
 
 #projects {
-    width: 60%;
-	margin-left: auto;
-	margin-right: auto;
-    padding: 20px;
-    border-bottom: 4px solid rgb(219, 48, 48);
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border-bottom: 4px solid rgb(219, 48, 48);
 }
 
 #contact {
-    width: 60%;
-	margin-left: auto;
-	margin-right: auto;
-    padding: 20px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
 }
 
 .sectionname {
-    font-family: "Roboto Black";
-    color: rgb(219, 48, 48);
-    text-align: center;
-    font-weight: bold;
-    font-size: 38px;
+  font-family: "Roboto Black";
+  color: rgb(219, 48, 48);
+  text-align: center;
+  font-weight: bold;
+  font-size: 38px;
 }
 
 .project {
-    width: 100%;
-    margin-bottom: 40px;
-	overflow: hidden; 
+  width: 100%;
+  margin-bottom: 40px;
+  overflow: hidden;
 }
 
 .projectimage {
-	width: 35%;
-    padding-top: 18%;
-    margin-top: 25px;
-	margin-left: 4px;
-	margin-right: 4px;
-	margin-bottom: 4px;
-    overflow: auto; 
-    background-size: cover;
-    float: left;
+  width: 35%;
+  padding-top: 18%;
+  margin-top: 25px;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  overflow: auto;
+  background-size: cover;
+  float: left;
 }
 
 .projectimage:hover {
-    box-shadow: 0px 0px 4px 1px rgb(219, 48, 48);
+  box-shadow: 0px 0px 4px 1px rgb(219, 48, 48);
 }
 
 .projecttext {
-    width: 45%;
-    float: right;
-    text-align: justify;
+  width: 45%;
+  float: right;
+  text-align: justify;
 }
 
 .projecttitle {
-    max-height: 10px;
-    height: 100%;
-    color: rgb(37, 115, 204);
-    font-weight: bold;
+  max-height: 10px;
+  height: 100%;
+  color: rgb(37, 115, 204);
+  font-weight: bold;
+}
+
+#pathfinding .projectimage {
+  border: 5px solid rgb(37, 115, 204);
+  background-image: url("images/pathfinding.PNG");
 }
 
 #nutrition .projectimage {
-    border: 5px solid rgb(37, 115, 204);
-    background-image:url("images/nutrition.PNG");
+  border: 5px solid rgb(37, 115, 204);
+  background-image: url("images/nutrition.PNG");
 }
 
 #warcraft .projectimage {
-    border: 5px solid rgb(37, 115, 204);
-    background-image:url("images/warcraft.PNG");
+  border: 5px solid rgb(37, 115, 204);
+  background-image: url("images/warcraft.PNG");
 }
 
 #curve .projectimage {
-    width: 35%;
-    border: 5px solid rgb(37, 115, 204);
-    background-image:url("images/curve.PNG");
+  width: 35%;
+  border: 5px solid rgb(37, 115, 204);
+  background-image: url("images/curve.PNG");
 }
 
 #phong .projectimage {
-    border: 5px solid rgb(37, 115, 204);
-    background-image:url("images/phong.PNG");
+  border: 5px solid rgb(37, 115, 204);
+  background-image: url("images/phong.PNG");
 }
 
 #dsystem .projectimage {
-    border: 5px solid rgb(37, 115, 204);
-    background-image:url("images/dsystem.PNG");
+  border: 5px solid rgb(37, 115, 204);
+  background-image: url("images/dsystem.PNG");
 }
 
 #schedule .projectimage {
-    border: 5px solid rgb(37, 115, 204);
-    background-image:url("images/schedule.PNG");
+  border: 5px solid rgb(37, 115, 204);
+  background-image: url("images/schedule.PNG");
 }
 
 .langs {
-	font-style: italic;
-	color: #a5b7b2;
+  font-style: italic;
+  color: #a5b7b2;
 }
 
 .row-container {
-    display: flex;
+  display: flex;
 }
 
 .big-icon {
-    color: rgb(219, 48, 48);
+  color: rgb(219, 48, 48);
 }
