@@ -129,6 +129,11 @@ footer {
   font-weight: bold;
 }
 
+#sorting .projectimage {
+  border: 5px solid rgb(37, 115, 204);
+  background-image: url("images/sorting.PNG");
+}
+
 #pathfinding .projectimage {
   border: 5px solid rgb(37, 115, 204);
   background-image: url("images/pathfinding.PNG");
