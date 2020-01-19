@@ -1,22 +1,22 @@
 var main = function() {
   // navigate nav
   $("#nav a span").click(function() {
-    var location = $(this)
+    var firstChar = $(this)
       .text()
       .charAt(0);
-    var pos = 0;
-    switch (location) {
+    var newPos = 0;
+    switch (firstChar) {
       case "A":
-        pos = $("#about").offset().top;
+        newPos = $("#about").offset().top;
         break;
       case "P":
-        pos = $("#projects").offset().top;
+        newPos = $("#projects").offset().top;
         break;
       case "C":
-        pos = $("#contact").offset().top;
+        newPos = $("#contact").offset().top;
         break;
     }
-    $(document).scrollTop(pos);
+    $(document).scrollTop(newPos);
   });
 };
 
