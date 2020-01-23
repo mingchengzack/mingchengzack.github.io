@@ -16,6 +16,8 @@ var main = function() {
         newPos = $("#contact").offset().top;
         break;
     }
+
+    newPos -= $("header").outerHeight();
     $(document).scrollTop(newPos);
   });
 };

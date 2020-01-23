@@ -14,6 +14,9 @@ a {
 
 header {
   background: rgb(33, 44, 51);
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
   padding: 12px, 30px;
   color: white;
   text-align: center;
@@ -32,6 +35,10 @@ footer {
 }
 
 #name {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  background: rgb(33, 44, 51);
   font-family: "Roboto Black";
   font-size: 48px;
 }
@@ -40,7 +47,6 @@ footer {
   overflow: hidden;
   width: 50%;
   display: inline-block;
-  background-color: rgb(33, 44, 51);
   margin-left: auto;
   margin-right: auto;
 }
@@ -54,7 +60,6 @@ footer {
   font-family: "Roboto Black";
   font-size: 25px;
   width: 29%;
-  /* margin-left: 15%; */
 }
 
 #nav a:hover {
